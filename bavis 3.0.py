@@ -493,22 +493,22 @@ while True:
             double = input('What would you like to double?\n')
 
             if double == '1':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 multiplier *= 2
             elif double == '2':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 bavis_counter *= 2
             elif double == '3':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 g_bavis_counter *= 2
             elif double == '4':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 lives *= 2
             elif double == '5':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 prestige *= 2
             elif double == '6':
-                s_bavis_counter =- 1
+                s_bavis_counter -= 1
                 rebirth *= 2
 
 
