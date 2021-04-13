@@ -33,7 +33,7 @@ while True:
     bavis = input('Bavis?\n')
 # then if the user replies with "bavis", one "bavis" gets added to the bavis_counter variable.
     if bavis == 'bavis':
-        bavis_counter += 1*multiplier + (1*prestige) + (100*rebirth)
+        bavis_counter += 1*multiplier + (1*prestige) + (1000*rebirth)
         bavis_time += 1
         sbavis_decide = random.randint(1,1000)
 
@@ -97,7 +97,7 @@ while True:
         g_bavis_decide = random.randint(1,luck)
         if g_bavis_decide == 1:
             print('============================\nNO WAY!\nYOU JUST GOT A GOLDEN BAVIS!\n============================')
-            g_bavis_counter += 1 + (1*prestige) + (10*rebirth)
+            g_bavis_counter += 1 + (1*prestige) + (500*rebirth)
 # then this wraps texts, to show how much "bavis" the user has.
         print('==============================\nBavises = ' + str(bavis_counter)+'\nGolden Bavises = ' + str(g_bavis_counter)+'\nTimes you have said Bavis = ' + str(bavis_time) + '\n==============================')
 # a cheat, which allows the user to give themselves an infinite amount of "bavises"
